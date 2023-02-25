@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: evgetta/api_yamdb:v1.3
+    build: evgetta/api_yamdb:v1.3
     restart: always
     volumes:
       - static_value:/app/static/
