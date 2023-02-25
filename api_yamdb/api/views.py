@@ -12,14 +12,12 @@ from reviews.models import Category, Genre, Review, Title, User
 
 from .filters import TitlesFilter
 from .mixins import ListCreateDestroyViewSet
-from .permissions import (IsAdmin,
-                          IsAdminModeratorOwnerOrReadOnly,
+from .permissions import (IsAdmin, IsAdminModeratorOwnerOrReadOnly,
                           IsAdminOrReadOnly)
 from .serializers import (CategorySerializer, CommentSerializer,
                           GenreSerializer, ReadOnlyTitleSerializer,
                           RegisterDataSerializer, ReviewSerializer,
-                          TitleSerializer, TokenSerializer, 
-                          UserEditSerializer,
+                          TitleSerializer, TokenSerializer, UserEditSerializer,
                           UserSerializer)
 
 
