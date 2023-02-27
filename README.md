@@ -53,7 +53,7 @@ Docker-compose 1.29.2
 
 ### После запуска, доступа документация для API, по адресу  
 
-- http://public-server-ip-adress/redoc/
+- http://51.250.106.119/redoc/
 
 
 ### Автор
